@@ -1,0 +1,102 @@
+   <!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hogwarts – Chapéu Seletor</title>
+  <meta name="description" content="Conheça Hogwarts, seus fundadores e escolha sua Casa com o Chapéu Seletor.">
+  <link href="styles.css" rel="stylesheet">
+  <link rel="icon" href="chapeu.png">
+</head>
+<body>
+  <header class="site">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="Início Hogwarts">
+        <!-- Aqui troquei o emoji pelo seu arquivo -->
+        <img class="hat" src="chapeu.png" alt="Chapéu Seletor">
+        <span>Hogwarts</span>
+      </a>
+      <nav class="navlinks" aria-label="Casas de Hogwarts">
+        <a href="grifinoria.html" class="theme-gryffindor">Grifinória</a>
+        <a href="sonserina.html" class="theme-slytherin">Sonserina</a>
+        <a href="corvinal.html" class="theme-ravenclaw">Corvinal</a>
+        <a href="lufalufa.html" class="theme-hufflepuff">Lufa-Lufa</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero grid grid-2 card section" aria-labelledby="title-hero">
+      <div>
+        <span class="badge"><span class="dot" aria-hidden="true"></span><span>Bem-vinda(o) a Hogwarts</span></span>
+        <h1 id="title-hero">O Chapéu Seletor aguarda você</h1>
+        <p>Hogwarts é a escola de magia e bruxaria fundada por <strong>Godric Gryffindor</strong>, <strong>Salazar Slytherin</strong>, <strong>Rowena Ravenclaw</strong> e <strong>Helga Hufflepuff</strong>. Cada fundador valorizava qualidades específicas, dando origem às quatro Casas que moldam a vida escolar.</p>
+        <div style="display:flex; gap:.6rem; flex-wrap:wrap; margin-top:1rem;">
+          <a class="btn" href="#casas">Escolher minha Casa</a>
+          <a class="btn secondary" href="#fundadores">Conhecer fundadores</a>
+        </div>
+      </div>
+
+      <!-- Aqui também substituí o fundo pelo seu chapéu -->
+      <div class="hero-illus">
+        <img src="chapeu.png" alt="Chapéu Seletor" class="hero-hat">
+      </div>
+    </section>
+
+    <section id="fundadores" class="section">
+      <div class="grid grid-4">
+        <div class="house-card theme-gryffindor">
+          <div class="kicker">Fundador</div>
+          <h3>Godric Gryffindor</h3>
+          <p>Coragem, bravura e determinação. Símbolos: leão e vermelho-dourado.</p>
+        </div>
+        <div class="house-card theme-slytherin">
+          <div class="kicker">Fundador</div>
+          <h3>Salazar Slytherin</h3>
+          <p>Astúcia, ambição e liderança. Símbolos: serpente e verde-prata.</p>
+        </div>
+        <div class="house-card theme-ravenclaw">
+          <div class="kicker">Fundadora</div>
+          <h3>Rowena Ravenclaw</h3>
+          <p>Inteligência, sabedoria e criatividade. Símbolos: águia e azul-bronze.</p>
+        </div>
+        <div class="house-card theme-hufflepuff">
+          <div class="kicker">Fundadora</div>
+          <h3>Helga Hufflepuff</h3>
+          <p>Lealdade, trabalho árduo e justiça. Símbolos: texugo e amarelo-preto.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="casas" class="section card">
+      <h2 style="margin-top:0">Escolha sua Casa</h2>
+      <div class="grid grid-4">
+        <div class="house-card theme-gryffindor">
+          <h3>Grifinória</h3>
+          <p>Para quem valoriza coragem e ousadia.</p>
+          <a class="house-link" href="grifinoria.html"><span>Ir para página</span> →</a>
+        </div>
+        <div class="house-card theme-slytherin">
+          <h3>Sonserina</h3>
+          <p>Para líderes ambiciosos e estratégicos.</p>
+          <a class="house-link" href="sonserina.html"><span>Ir para página</span> →</a>
+        </div>
+        <div class="house-card theme-ravenclaw">
+          <h3>Corvinal</h3>
+          <p>Para mentes curiosas e inventivas.</p>
+          <a class="house-link" href="corvinal.html"><span>Ir para página</span> →</a>
+        </div>
+        <div class="house-card theme-hufflepuff">
+          <h3>Lufa-Lufa</h3>
+          <p>Para corações leais e trabalhadores.</p>
+          <a class="house-link" href="lufalufa.html"><span>Ir para página</span> →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">Projeto de Gabriela Alves.</div>
+  </footer>
+</body>
+</html>  
