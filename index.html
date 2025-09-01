@@ -1,4 +1,4 @@
-   <!doctype html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
@@ -32,8 +32,17 @@
         <h1 id="title-hero">O Chapéu Seletor aguarda você</h1>
         <p>Hogwarts é a escola de magia e bruxaria fundada por <strong>Godric Gryffindor</strong>, <strong>Salazar Slytherin</strong>, <strong>Rowena Ravenclaw</strong> e <strong>Helga Hufflepuff</strong>. Cada fundador valorizava qualidades específicas, dando origem às quatro Casas que moldam a vida escolar.</p>
         <div style="display:flex; gap:.6rem; flex-wrap:wrap; margin-top:1rem;">
-          <a class="btn" href="#casas">Escolher minha Casa</a>
-          <a class="btn secondary" href="#fundadores">Conhecer fundadores</a>
+  <button class="btn" id="btnSort">Escolher minha Casa</button>
+</div>
+
+<!-- Modal do Chapéu Seletor -->
+<div id="modal-casa">
+  <div id="modal-content">
+    <!-- conteúdo sorteado entra aqui via JS -->
+  </div>
+</div>
+
+
         </div>
       </div>
 
@@ -96,7 +105,13 @@
   </main>
 
   <footer>
-    <div class="container">Projeto de Gabriela Alves.</div>
-  </footer>
+  
+   
+   <script src="a.js" defer></script>
+
+
+
+
+
 </body>
 </html>  
