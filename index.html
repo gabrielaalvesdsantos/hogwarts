@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hogwarts – Chapéu Seletor</title>
+  <title>A Escolha do Chapéu</title>
   <meta name="description" content="Conheça Hogwarts, seus fundadores e escolha sua Casa com o Chapéu Seletor.">
   <link href="styles.css" rel="stylesheet">
   <link rel="icon" href="chapeu.png">
@@ -12,7 +12,6 @@
   <header class="site">
     <div class="container nav">
       <a class="brand" href="index.html" aria-label="Início Hogwarts">
-        <!-- Aqui troquei o emoji pelo seu arquivo -->
         <img class="hat" src="chapeu.png" alt="Chapéu Seletor">
         <span>Hogwarts</span>
       </a>
@@ -22,6 +21,11 @@
         <a href="corvinal.html" class="theme-ravenclaw">Corvinal</a>
         <a href="lufalufa.html" class="theme-hufflepuff">Lufa-Lufa</a>
       </nav>
+<div class="btn-wrapper">
+  <a href="sobremim.html" class="btn btn-fancy">Sobre Mim & Reivindicação</a>
+</div>
+
+
     </div>
   </header>
 
@@ -33,20 +37,14 @@
         <p>Hogwarts é a escola de magia e bruxaria fundada por <strong>Godric Gryffindor</strong>, <strong>Salazar Slytherin</strong>, <strong>Rowena Ravenclaw</strong> e <strong>Helga Hufflepuff</strong>. Cada fundador valorizava qualidades específicas, dando origem às quatro Casas que moldam a vida escolar.</p>
         <div style="display:flex; gap:.6rem; flex-wrap:wrap; margin-top:1rem;">
   <button class="btn" id="btnSort">Escolher minha Casa</button>
-</div>
-
-<!-- Modal do Chapéu Seletor -->
-<div id="modal-casa">
-  <div id="modal-content">
-    <!-- conteúdo sorteado entra aqui via JS -->
-  </div>
-</div>
-
-
+          </div>
+               <div id="modal-casa">
+                 <div id="modal-content">
+               </div>
+          </div>
         </div>
       </div>
 
-      <!-- Aqui também substituí o fundo pelo seu chapéu -->
       <div class="hero-illus">
         <img src="chapeu.png" alt="Chapéu Seletor" class="hero-hat">
       </div>
@@ -106,12 +104,12 @@
 
   <footer>
   
-   
    <script src="a.js" defer></script>
 
+   <div id="secretBtn" style="position:absolute; top:20px; left:20px; width:50px; height:50px; cursor:pointer;"></div>
 
-
-
-
+<div id="magicDiary">
+  <p id="diaryText">...</p>
+</div>
 </body>
 </html>  

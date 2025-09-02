@@ -21,11 +21,37 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.getElementById('again').addEventListener('click', () => {
       modal.classList.remove('show');
-      setTimeout(() => btn.click(), 300); // sortear novamente
+      setTimeout(() => btn.click(), 300); 
     });
   });
 
   modal.addEventListener('click', (e) => {
     if(e.target === modal) modal.classList.remove('show');
   });
+});
+
+
+   const secretBtn = document.getElementById('secretBtn');
+   const magicDiary = document.getElementById('magicDiary');
+   const diaryText = document.getElementById('diaryText');
+
+   const diaryPages = [
+  "As paredes da escola guardam segredos... alguns são só para os escolhidos.",
+  "Uma pena invisível escreveu seu destino, mas sóo Chapéu Seletor poderá lê-lo.",
+  "Você clicou no diário e liberou um feitiço secreto: alert('Expecto Patronum!').",
+  "O JavaScript do Chapéu gosta de surpresas… tipo Sonserina ganhando Grifinória.",
+  "O Chapéu olhou seu código e disse: 'Você pertence a Sonserina... mas só se passar no commit!'"
+];
+
+   let currentPage = 0;
+
+   secretBtn.addEventListener('click', () => {
+  magicDiary.style.display = 'block';
+  diaryText.textContent = diaryPages[currentPage];
+  currentPage++;
+  if(currentPage >= diaryPages.length) currentPage = 0;
+});
+
+magicDiary.addEventListener('click', () => {
+  magicDiary.style.display = 'none';
 });
