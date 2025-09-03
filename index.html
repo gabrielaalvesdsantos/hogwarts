@@ -6,13 +6,16 @@
   <title>A Escolha do Chapéu</title>
   <meta name="description" content="Conheça Hogwarts, seus fundadores e escolha sua Casa com o Chapéu Seletor.">
   <link href="styles.css" rel="stylesheet">
-  <link rel="icon" href="chapeu.png">
+  <link rel="icon" href="icon.jpeg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="site">
     <div class="container nav">
       <a class="brand" href="index.html" aria-label="Início Hogwarts">
-        <img class="hat" src="chapeu.png" alt="Chapéu Seletor">
+        <img class="hat" src="icon.jpeg" alt="Chapéu Seletor">
         <span>Hogwarts</span>
       </a>
       <nav class="navlinks" aria-label="Casas de Hogwarts">
@@ -35,8 +38,8 @@
         <span class="badge"><span class="dot" aria-hidden="true"></span><span>Bem-vinda(o) a Hogwarts</span></span>
         <h1 id="title-hero">O Chapéu Seletor aguarda você</h1>
         <p>Hogwarts é a escola de magia e bruxaria fundada por <strong>Godric Gryffindor</strong>, <strong>Salazar Slytherin</strong>, <strong>Rowena Ravenclaw</strong> e <strong>Helga Hufflepuff</strong>. Cada fundador valorizava qualidades específicas, dando origem às quatro Casas que moldam a vida escolar.</p>
-        <div style="display:flex; gap:.6rem; flex-wrap:wrap; margin-top:1rem;">
-  <button class="btn" id="btnSort">Escolher minha Casa</button>
+        <div class="btn-center">
+  <button class="btn" id="btnSort">Descubra sua Casa</button>
           </div>
                <div id="modal-casa">
                  <div id="modal-content">
@@ -111,5 +114,7 @@
 <div id="magicDiary">
   <p id="diaryText">...</p>
 </div>
+<p>© 2025 - Projeto de LPW feito por Gabriela Alves</p>
+</footer>
 </body>
 </html>  

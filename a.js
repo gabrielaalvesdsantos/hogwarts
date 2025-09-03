@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
    const diaryPages = [
   "As paredes da escola guardam segredos... alguns são só para os escolhidos.",
-  "Uma pena invisível escreveu seu destino, mas sóo Chapéu Seletor poderá lê-lo.",
+  "Uma pena invisível escreveu seu destino, mas só o Chapéu Seletor poderá lê-lo.",
   "Você clicou no diário e liberou um feitiço secreto: alert('Expecto Patronum!').",
   "O JavaScript do Chapéu gosta de surpresas… tipo Sonserina ganhando Grifinória.",
   "O Chapéu olhou seu código e disse: 'Você pertence a Sonserina... mas só se passar no commit!'"
